@@ -2,18 +2,19 @@
 
 copy_current_distro()
 {
-	mkdir ../install_current
+	mkdir ../install_current -pv
 	cp -R "$1"/* ../install_current
 }
 
 run_current_install()
 {
+	
 	/bin/sh ../install_current/install.sh 
 }
 
 cleanup()
 {
-	rm -rf .
+	rm -rf ../install_current
 }
 
 

@@ -1,5 +1,5 @@
 
-## CUSTOM ALIASES v1.0 START ##
+## CUSTOM ALIASES v1.1 START ##
 ## mainly from : https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # if user is not root, pass all commands via sudo #
@@ -82,4 +82,4 @@ alias firewall=iptlist
 ## this one saved by butt so many times ##
 alias wget='wget -c'
 
-## CUSTOM ALIASES v1.0 END ##
+## CUSTOM ALIASES v1.1 END ##

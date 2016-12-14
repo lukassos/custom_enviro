@@ -1,5 +1,5 @@
 #!/bin/sh
-remove_old_lines
+remove_old_lines()
 {
         line_start=`cat ~/.bashrc | grep CUSTOM -n | cut -d ":" -f1 | head -1`
 	line_end=`cat ~/.bashrc | grep CUSTOM -n | cut -d ":" -f1 | tail -1`
@@ -13,7 +13,7 @@ remove_old_lines
 	#mv ~/.bashrc.new ~/.bashrc
 }
 
-check_version
+check_version()
 {
 	if [ -n "$1"  ]; then 
 	if [ -n "$2"  ]; then 
