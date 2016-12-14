@@ -3,7 +3,7 @@
 copy_current_distro()
 {
 	mkdir ../install_current
-	cp $1 ../install_current
+	cp -R "$1" ../install_current
 }
 
 run_current_install()
