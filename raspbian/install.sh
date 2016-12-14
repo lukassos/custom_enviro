@@ -6,5 +6,5 @@ if [ -n "$already_in" ]; then
 	cat bashrc >> ~/.bashrc
 fi
 
-sudo apt-get install colordiff
+sudo apt-get install colordiff -y
 
