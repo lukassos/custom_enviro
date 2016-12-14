@@ -14,5 +14,5 @@ setup custom commands and commandline on linux the easy way <br>
 		<br>
 	2. mkdirs, clone and install : <br>
 		<code>mkdir ~/scripts/setup -p && \ </code><br>
-		<code>git clone https://github.com/lukassos/custom_enviro/edit/master ~/scripts/setup && \ </code><br>
+		<code>git clone https://github.com/lukassos/custom_enviro.git ~/scripts/setup && \ </code><br>
 		<code>exec ~/scripts/setup/install.sh</code><br>
