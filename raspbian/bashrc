@@ -82,4 +82,7 @@ alias firewall=iptlist
 ## this one saved by butt so many times ##
 alias wget='wget -c'
 
+
+alias pycharm='bash ~/pycharm-community-2016.3.1/bin/pycharm.sh &'
+
 ## CUSTOM ALIASES v1.1 END ##
