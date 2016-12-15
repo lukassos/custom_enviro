@@ -45,6 +45,9 @@ check_version $already_in $current_version
 
 sudo apt-get install colordiff bc
 
-
-wget -c https://download.jetbrains.com/python/pycharm-community-2016.3.1.tar.gz ../install_current/
-tar -xvzf ../install_current/pycharm-community-2016.3.1.tar.gz  ~
+last="`pwd`"
+cd ~/Downloads
+wget -c https://download.jetbrains.com/python/pycharm-community-2016.3.1.tar.gz -O pycharm-community-2016.3.1.tar.gz 
+tar -xvzf pycharm-community-2016.3.1.tar.gz  -C ~
+rm -rf pycharm-community-2016.3.1.tar.gz 
+cd $last
